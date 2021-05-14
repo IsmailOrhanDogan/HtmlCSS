@@ -1,0 +1,40 @@
+*{
+    text-align: center;
+}
+
+h1{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+
+}
+/* ID kullaniyosam #
+    Class kullaniyosam nokta(.)
+*/
+/* solid  = tek cizgi
+   double = cift cizgi 
+   dashes = kesik cizgili
+   border siralamasi = cizgi kalinligi, cizgi turu, renk
+   */
+.tablo{
+    border: 3px solid darkred;
+    border-collapse: collapse;  /*cizgileri birlestirmek icin*/
+    width: 50%; /* yuzdelik dilim sayfaya gore hesaplanir*/
+    margin-left: auto;  /* tabloyu ortalamak icin kullaniyoruz margin left ve righti*/
+    margin-right: auto;
+    }
+/* Birden fazla attribute'te ayni stillendirme yapilacaksa virgulle ayrilarak yazilabilir. */
+td,
+th{
+    border: 2px solid black;
+    
+}
+th{
+    background-color: greenyellow;
+}
+tr:hover{
+    background-color: rgb(126, 121, 121);
+}
+tr:nth-child(even){
+    background: rgb(177, 172, 172);
+}
