@@ -1,10 +1,47 @@
+/*Nunito Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     text-align: center;
+    margin: 0;   /*Bastan tum marginleri sifirla.*/
+    box-sizing: border-box;  /*box-sizing csste kullanilan kuut modelini secmek icin kullanilir. genelde border box tercih edilir.*/
 }
-
+body{
+    background-image: linear-gradient(#ffffff,rgb(252, 153, 153));
+    font-family: "Nunito", sans-serif;
+}
+h1{
+    margin-top: 20px;
+}
 .input{
     margin-bottom: 20px;
     width: 200px;
     height: 25px;
+
+}
+.label{
+    margin-right: 10px;
+    display: block;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(238, 195, 195);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(250, 92, 75);
+
+}
+i{
+    color: white;
+}
+textarea{
+    width: 200px;
+    
 
 }
