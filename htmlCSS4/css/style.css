@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+img{
+    width: 20%;
+    
+
+}
+
+.kutu{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background: aquamarine;
+}
+.orta{
+    background: wheat;
+    width: 100%;
+}
+.alt{
+    background-image: linear-gradient(rgb(83, 83, 255),grey);
+    width: 500px;
+}
+.kutu1{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    float: left;    /*Blok Nesneleri yanyana dizmek icin kullanilir*/
+
+}
+.kutu1.sari{
+    width: 40%;        /*Yan yana dizilen nesnelerin buyuklukleri
+    % ile belirlenebilir*/
+    background-color: yellow ;
+}
+.kutu1.yesil{
+    width: 20%;
+    background-color: green ;
+}
+.kutu1.kirmizi{
+    width: 30%;
+    background-color: red ;
+}
+.kutu1.mavi{
+    width: 10%;
+    background-color: blue ;
+}
+.kutu1.mor{
+    width: 100%;
+    background-color: mediumorchid;
+}
+/* Float left kullanildiginda alt satira gecildiginde ust
+satir ile bir birlesme clearfix adinda bir hack yontemi kullanilir.
+bunun icin birlesen satira bir div eklenir. */
+.clearfix{
+    clear:both;
+}
